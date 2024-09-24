@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		37EAE45B2CA2F0F0004C652C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37EAE4392CA2F0ED004C652C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37EAE4402CA2F0ED004C652C;
+			remoteInfo = BananaClicker;
+		};
+		37EAE4652CA2F0F0004C652C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37EAE4392CA2F0ED004C652C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37EAE4402CA2F0ED004C652C;
+			remoteInfo = BananaClicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37EAE4412CA2F0ED004C652C /* BananaClicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BananaClicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37EAE45A2CA2F0F0004C652C /* BananaClickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BananaClickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37EAE4642CA2F0F0004C652C /* BananaClickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BananaClickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		37EAE46C2CA2F0F0004C652C /* Exceptions for "BananaClicker" folder in "BananaClicker" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 37EAE4402CA2F0ED004C652C /* BananaClicker */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		37EAE4432CA2F0ED004C652C /* BananaClicker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				37EAE46C2CA2F0F0004C652C /* Exceptions for "BananaClicker" folder in "BananaClicker" target */,
+			);
+			path = BananaClicker;
+			sourceTree = "<group>";
+		};
+		37EAE45D2CA2F0F0004C652C /* BananaClickerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BananaClickerTests;
+			sourceTree = "<group>";
+		};
+		37EAE4672CA2F0F0004C652C /* BananaClickerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BananaClickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37EAE43E2CA2F0ED004C652C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37EAE4572CA2F0F0004C652C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37EAE4612CA2F0F0004C652C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37EAE4382CA2F0ED004C652C = {
+			isa = PBXGroup;
+			children = (
+				37EAE4432CA2F0ED004C652C /* BananaClicker */,
+				37EAE45D2CA2F0F0004C652C /* BananaClickerTests */,
+				37EAE4672CA2F0F0004C652C /* BananaClickerUITests */,
+				37EAE4422CA2F0ED004C652C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37EAE4422CA2F0ED004C652C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37EAE4412CA2F0ED004C652C /* BananaClicker.app */,
+				37EAE45A2CA2F0F0004C652C /* BananaClickerTests.xctest */,
+				37EAE4642CA2F0F0004C652C /* BananaClickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37EAE4402CA2F0ED004C652C /* BananaClicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37EAE46D2CA2F0F0004C652C /* Build configuration list for PBXNativeTarget "BananaClicker" */;
+			buildPhases = (
+				37EAE43D2CA2F0ED004C652C /* Sources */,
+				37EAE43E2CA2F0ED004C652C /* Frameworks */,
+				37EAE43F2CA2F0ED004C652C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				37EAE4432CA2F0ED004C652C /* BananaClicker */,
+			);
+			name = BananaClicker;
+			packageProductDependencies = (
+			);
+			productName = BananaClicker;
+			productReference = 37EAE4412CA2F0ED004C652C /* BananaClicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37EAE4592CA2F0F0004C652C /* BananaClickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37EAE4722CA2F0F0004C652C /* Build configuration list for PBXNativeTarget "BananaClickerTests" */;
+			buildPhases = (
+				37EAE4562CA2F0F0004C652C /* Sources */,
+				37EAE4572CA2F0F0004C652C /* Frameworks */,
+				37EAE4582CA2F0F0004C652C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37EAE45C2CA2F0F0004C652C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				37EAE45D2CA2F0F0004C652C /* BananaClickerTests */,
+			);
+			name = BananaClickerTests;
+			packageProductDependencies = (
+			);
+			productName = BananaClickerTests;
+			productReference = 37EAE45A2CA2F0F0004C652C /* BananaClickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		37EAE4632CA2F0F0004C652C /* BananaClickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37EAE4752CA2F0F0004C652C /* Build configuration list for PBXNativeTarget "BananaClickerUITests" */;
+			buildPhases = (
+				37EAE4602CA2F0F0004C652C /* Sources */,
+				37EAE4612CA2F0F0004C652C /* Frameworks */,
+				37EAE4622CA2F0F0004C652C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37EAE4662CA2F0F0004C652C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				37EAE4672CA2F0F0004C652C /* BananaClickerUITests */,
+			);
+			name = BananaClickerUITests;
+			packageProductDependencies = (
+			);
+			productName = BananaClickerUITests;
+			productReference = 37EAE4642CA2F0F0004C652C /* BananaClickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37EAE4392CA2F0ED004C652C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					37EAE4402CA2F0ED004C652C = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					37EAE4592CA2F0F0004C652C = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 37EAE4402CA2F0ED004C652C;
+					};
+					37EAE4632CA2F0F0004C652C = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 37EAE4402CA2F0ED004C652C;
+					};
+				};
+			};
+			buildConfigurationList = 37EAE43C2CA2F0ED004C652C /* Build configuration list for PBXProject "BananaClicker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37EAE4382CA2F0ED004C652C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 37EAE4422CA2F0ED004C652C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37EAE4402CA2F0ED004C652C /* BananaClicker */,
+				37EAE4592CA2F0F0004C652C /* BananaClickerTests */,
+				37EAE4632CA2F0F0004C652C /* BananaClickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37EAE43F2CA2F0ED004C652C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37EAE4582CA2F0F0004C652C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37EAE4622CA2F0F0004C652C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37EAE43D2CA2F0ED004C652C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37EAE4562CA2F0F0004C652C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37EAE4602CA2F0F0004C652C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37EAE45C2CA2F0F0004C652C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37EAE4402CA2F0ED004C652C /* BananaClicker */;
+			targetProxy = 37EAE45B2CA2F0F0004C652C /* PBXContainerItemProxy */;
+		};
+		37EAE4662CA2F0F0004C652C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37EAE4402CA2F0ED004C652C /* BananaClicker */;
+			targetProxy = 37EAE4652CA2F0F0004C652C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		37EAE46E2CA2F0F0004C652C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36WQUCQK57;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BananaClicker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.BananaClicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37EAE46F2CA2F0F0004C652C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36WQUCQK57;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BananaClicker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.BananaClicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		37EAE4702CA2F0F0004C652C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37EAE4712CA2F0F0004C652C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37EAE4732CA2F0F0004C652C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36WQUCQK57;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.BananaClickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BananaClicker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BananaClicker";
+			};
+			name = Debug;
+		};
+		37EAE4742CA2F0F0004C652C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36WQUCQK57;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.BananaClickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BananaClicker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BananaClicker";
+			};
+			name = Release;
+		};
+		37EAE4762CA2F0F0004C652C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36WQUCQK57;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.BananaClickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BananaClicker;
+			};
+			name = Debug;
+		};
+		37EAE4772CA2F0F0004C652C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36WQUCQK57;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.BananaClickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BananaClicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37EAE43C2CA2F0ED004C652C /* Build configuration list for PBXProject "BananaClicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37EAE4702CA2F0F0004C652C /* Debug */,
+				37EAE4712CA2F0F0004C652C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37EAE46D2CA2F0F0004C652C /* Build configuration list for PBXNativeTarget "BananaClicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37EAE46E2CA2F0F0004C652C /* Debug */,
+				37EAE46F2CA2F0F0004C652C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37EAE4722CA2F0F0004C652C /* Build configuration list for PBXNativeTarget "BananaClickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37EAE4732CA2F0F0004C652C /* Debug */,
+				37EAE4742CA2F0F0004C652C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37EAE4752CA2F0F0004C652C /* Build configuration list for PBXNativeTarget "BananaClickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37EAE4762CA2F0F0004C652C /* Debug */,
+				37EAE4772CA2F0F0004C652C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37EAE4392CA2F0ED004C652C /* Project object */;
+}
