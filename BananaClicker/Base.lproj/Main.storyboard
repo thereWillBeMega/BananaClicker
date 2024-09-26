@@ -8,20 +8,96 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--View Controller Shop-->
         <scene sceneID="r4D-Ul-95l">
             <objects>
-                <viewController id="Hwa-eW-nID" sceneMemberID="viewController">
+                <viewController id="Hwa-eW-nID" customClass="ViewControllerShop" customModule="BananaClicker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XMs-Xo-jBY">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="94" translatesAutoresizingMaskIntoConstraints="NO" id="fuq-ep-spr">
+                                <rect key="frame" x="51.333333333333343" y="203" width="290.66666666666663" height="446"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHOP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1dr-eV-aOs">
+                                        <rect key="frame" x="0.0" y="0.0" width="290.66666666666669" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Money: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fLl-Ts-d89">
+                                        <rect key="frame" x="0.0" y="114.33333333333331" width="290.66666666666669" height="20.333333333333343"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dZb-7n-8Sn">
+                                        <rect key="frame" x="0.0" y="228.66666666666669" width="290.66666666666669" height="89"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10 bananas Cost: 5" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0n-Zr-Mfi">
+                                                <rect key="frame" x="0.0" y="0.0" width="145.33333333333334" height="89"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3M-hY-ghp">
+                                                <rect key="frame" x="145.33333333333331" y="0.0" width="145.33333333333331" height="89"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Buy">
+                                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                                    <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="BananaBuyAction:" destination="Hwa-eW-nID" eventType="touchUpInside" id="HFO-Hl-2eU"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jrD-hG-stx">
+                                        <rect key="frame" x="0.0" y="411.66666666666663" width="290.66666666666669" height="34.333333333333314"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Multiplier Cost: 30" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="801-54-VoJ">
+                                                <rect key="frame" x="0.0" y="0.0" width="145.33333333333334" height="34.333333333333336"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nxi-A3-S1x">
+                                                <rect key="frame" x="145.33333333333331" y="0.0" width="145.33333333333331" height="34.333333333333336"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Buy">
+                                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                                    <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="multiBuyOutlet:" destination="Hwa-eW-nID" eventType="touchUpInside" id="DFy-KG-6z6"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="dZb-7n-8Sn" firstAttribute="height" secondItem="fuq-ep-spr" secondAttribute="height" multiplier="0.2" id="bdr-AX-NWC"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="ASs-mq-cwD"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <constraints>
+                            <constraint firstItem="fuq-ep-spr" firstAttribute="centerY" secondItem="XMs-Xo-jBY" secondAttribute="centerY" id="1NK-wI-OA1"/>
+                            <constraint firstItem="fuq-ep-spr" firstAttribute="centerX" secondItem="XMs-Xo-jBY" secondAttribute="centerX" id="hFF-Sp-zSs"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="xRg-RV-3w9"/>
+                    <connections>
+                        <outlet property="bananaBuyOutlet" destination="A0n-Zr-Mfi" id="Vew-F4-Nzt"/>
+                        <outlet property="multiBuyOutlet" destination="801-54-VoJ" id="rQk-af-iNt"/>
+                        <outlet property="shopMoneyOutlet" destination="fLl-Ts-d89" id="li3-au-RPt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F37-YH-PqR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-616" y="4"/>
+            <point key="canvasLocation" x="-616.03053435114498" y="3.5211267605633805"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -31,53 +107,56 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="103" translatesAutoresizingMaskIntoConstraints="NO" id="RRH-Bd-hES">
-                                <rect key="frame" x="89.666666666666686" y="139.66666666666669" width="214" height="572.66666666666652"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="122" translatesAutoresizingMaskIntoConstraints="NO" id="RRH-Bd-hES">
+                                <rect key="frame" x="89.666666666666686" y="49.333333333333314" width="214" height="753.33333333333348"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click the banana!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wcl-OD-ttB">
-                                        <rect key="frame" x="0.0" y="0.0" width="214" height="43.666666666666664"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="214" height="36.666666666666664"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="51" translatesAutoresizingMaskIntoConstraints="NO" id="lT7-Gt-HR3">
-                                        <rect key="frame" x="0.0" y="146.66666666666666" width="214" height="28.666666666666657"/>
+                                        <rect key="frame" x="0.0" y="158.66666666666666" width="214" height="23.666666666666657"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bananas: 10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xBE-rS-55c">
-                                                <rect key="frame" x="0.0" y="0.0" width="92" height="28.666666666666668"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="92" height="23.666666666666668"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Money: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rro-50-Euk">
-                                                <rect key="frame" x="143" y="0.0" width="71" height="28.666666666666668"/>
+                                                <rect key="frame" x="143" y="0.0" width="71" height="23.666666666666668"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uPm-u1-jNf">
-                                        <rect key="frame" x="0.0" y="278.33333333333337" width="214" height="191.33333333333337"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain">
-                                            <backgroundConfiguration key="background" image="banana1"/>
-                                        </buttonConfiguration>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uPm-u1-jNf">
+                                        <rect key="frame" x="0.0" y="304.33333333333337" width="214" height="251.66666666666663"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="banana1"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="banana1"/>
                                         <connections>
                                             <action selector="clickAction:" destination="BYZ-38-t0r" eventType="touchDown" id="Xux-AS-Q46"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VzM-tU-eoM">
-                                        <rect key="frame" x="0.0" y="572.66666666666674" width="214" height="0.0"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N3p-Cj-JdD">
+                                        <rect key="frame" x="0.0" y="678" width="214" height="75.333333333333371"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Shop">
+                                        <buttonConfiguration key="configuration" style="filled" title="shop">
                                             <color key="baseForegroundColor" systemColor="labelColor"/>
                                             <color key="baseBackgroundColor" systemColor="systemYellowColor"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="shopAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8h1-us-jNz"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="uPm-u1-jNf" firstAttribute="height" secondItem="RRH-Bd-hES" secondAttribute="height" multiplier="0.33423" id="X6K-cn-qUR"/>
+                                    <constraint firstItem="N3p-Cj-JdD" firstAttribute="height" secondItem="RRH-Bd-hES" secondAttribute="height" multiplier="0.1" id="uv6-9i-gEw"/>
                                 </constraints>
                             </stackView>
                         </subviews>
@@ -92,11 +171,12 @@
                     <connections>
                         <outlet property="bananaOutlet" destination="xBE-rS-55c" id="XmJ-Uh-DTN"/>
                         <outlet property="moneyOutlet" destination="rro-50-Euk" id="j7x-xD-tTT"/>
+                        <segue destination="Hwa-eW-nID" kind="show" identifier="Shop" id="Qf4-4p-V2X"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="256" y="-382"/>
+            <point key="canvasLocation" x="255.72519083969465" y="-382.3943661971831"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="5TQ-Xh-82B">
@@ -118,7 +198,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="banana1" width="224" height="224"/>
+        <image name="banana1" width="182" height="181"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
