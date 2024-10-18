@@ -11,6 +11,7 @@ class appData{
    static var money = 0
    static var bananas = 10
     static var multi = 1
+    static var defaults = UserDefaults.standard
 }
 
 
@@ -20,6 +21,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var moneyOutlet: UILabel!
     
     
+    @IBOutlet weak var imageOutlet: UIButton!
     @IBOutlet weak var bananaOutlet: UILabel!
     
     var bananaState = 0
@@ -28,15 +30,18 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        appData.bananas = appData.defaults.integer(forKey: "bananas")
+        appData.money = appData.defaults.integer(forKey: "money")
+        appData.multi = appData.defaults.integer(forKey: "multi")
     }
     
-    override func viewDidAppear(_ animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         moneyOutlet.text = "money: " + String(appData.money)
         bananaOutlet.text = "bananas: " + String(appData.bananas)
         if appData.bananas > 0{
             bananaState = 0
             let curImage = UIImage(named: "banana1")
-//            sender.setImage(curImage, for: .normal)
+            imageOutlet.setImage(curImage, for: .normal)
         }
     }
 
@@ -72,6 +77,13 @@ class ViewController: UIViewController {
     
     @IBAction func shopAction(_ sender: UIButton) {
         performSegue(withIdentifier: "Shop", sender: self)
+    }
+    
+    
+    @IBAction func saveAction(_ sender: UIButton) {
+        appData.defaults.set(appData.bananas, forKey: "bananas")
+        appData.defaults.set(appData.money, forKey: "money")
+        appData.defaults.set(appData.multi, forKey: "multi")
     }
     
     
