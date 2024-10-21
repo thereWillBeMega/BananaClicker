@@ -50,6 +50,8 @@ class ViewControllerShop: UIViewController {
             shopMoneyOutlet.text = "Money: " + String(appData.money)
         }
         
+        
+        
     }
     /*
     // MARK: - Navigation

@@ -158,7 +158,6 @@
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="saveAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bq7-eQ-5B7"/>
-                                                    <action selector="shopAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e26-hY-Sr9"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O44-sE-uMD">
@@ -180,6 +179,13 @@
                                     <constraint firstItem="uPm-u1-jNf" firstAttribute="height" secondItem="RRH-Bd-hES" secondAttribute="height" multiplier="0.33423" id="X6K-cn-qUR"/>
                                 </constraints>
                             </stackView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="X1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jgc-Cq-uLH">
+                                <rect key="frame" x="207" y="464" width="186" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="60"/>
+                                <color key="textColor" systemColor="systemYellowColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
@@ -193,6 +199,7 @@
                         <outlet property="bananaOutlet" destination="xBE-rS-55c" id="XmJ-Uh-DTN"/>
                         <outlet property="imageOutlet" destination="uPm-u1-jNf" id="1NI-DY-NMy"/>
                         <outlet property="moneyOutlet" destination="rro-50-Euk" id="j7x-xD-tTT"/>
+                        <outlet property="multiOutlet" destination="jgc-Cq-uLH" id="vLS-ia-dlu"/>
                         <segue destination="Hwa-eW-nID" kind="show" identifier="Shop" id="Qf4-4p-V2X"/>
                     </connections>
                 </viewController>

@@ -8,10 +8,14 @@
 import UIKit
 
 class appData{
-   static var money = 0
-   static var bananas = 10
+    
+    
+    static var money = 0
+    static var bananas = 10
     static var multi = 1
     static var defaults = UserDefaults.standard
+    
+    
 }
 
 
@@ -24,19 +28,48 @@ class ViewController: UIViewController {
     @IBOutlet weak var imageOutlet: UIButton!
     @IBOutlet weak var bananaOutlet: UILabel!
     
+    @IBOutlet weak var multiOutlet: UILabel!
+    
+    
     var bananaState = 0
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view.
+        
+       
+        
+        if !appData.defaults.bool(forKey: "start"){
+            print("hi :)")
+            appData.defaults.set(true, forKey: "start")
+            appData.defaults.set(appData.bananas, forKey: "bananas")
+            appData.defaults.set(appData.money, forKey: "money")
+            appData.defaults.set(appData.multi, forKey: "multi")
+            appData.bananas = appData.defaults.integer(forKey: "bananas")
+            appData.money = appData.defaults.integer(forKey: "money")
+            appData.multi = appData.defaults.integer(forKey: "multi")
+        }
+
+        
         appData.bananas = appData.defaults.integer(forKey: "bananas")
         appData.money = appData.defaults.integer(forKey: "money")
         appData.multi = appData.defaults.integer(forKey: "multi")
+        
+        if appData.bananas == 0{
+            bananaState = 0
+            let curImage = UIImage(named: "outOfStock")
+            imageOutlet.setImage(curImage, for: .normal)
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {
         moneyOutlet.text = "money: " + String(appData.money)
+        if appData.multi > 1{
+            multiOutlet.isHidden = false
+        }
+        multiOutlet.text = "X" + String(appData.multi)
         bananaOutlet.text = "bananas: " + String(appData.bananas)
         if appData.bananas > 0{
             bananaState = 0
