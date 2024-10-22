@@ -120,5 +120,9 @@ class ViewController: UIViewController {
     }
     
     
+    @IBAction func homeAction(_ sender: Any) {
+        performSegue(withIdentifier: "toStartGame", sender: self)
+    }
+    
 }
 

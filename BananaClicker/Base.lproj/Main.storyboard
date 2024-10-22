@@ -13,11 +13,11 @@
             <objects>
                 <viewController id="Hwa-eW-nID" customClass="ViewControllerShop" customModule="BananaClicker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XMs-Xo-jBY">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="94" translatesAutoresizingMaskIntoConstraints="NO" id="fuq-ep-spr">
-                                <rect key="frame" x="36.666666666666657" y="187.66666666666666" width="320" height="476.66666666666674"/>
+                                <rect key="frame" x="36.666666666666657" y="182.66666666666666" width="320" height="476.66666666666674"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHOP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Fv-nX-rBD">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
@@ -110,26 +110,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="122" translatesAutoresizingMaskIntoConstraints="NO" id="RRH-Bd-hES">
-                                <rect key="frame" x="67.666666666666657" y="67.666666666666686" width="257.66666666666674" height="716.66666666666652"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="117" translatesAutoresizingMaskIntoConstraints="NO" id="RRH-Bd-hES">
+                                <rect key="frame" x="67.666666666666657" y="82.333333333333314" width="257.66666666666674" height="687.33333333333348"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click the banana!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wcl-OD-ttB">
-                                        <rect key="frame" x="0.0" y="0.0" width="257.66666666666669" height="40.666666666666664"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="257.66666666666669" height="39"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="34"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="lT7-Gt-HR3">
-                                        <rect key="frame" x="0.0" y="162.66666666666669" width="257.66666666666669" height="20.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="156" width="257.66666666666669" height="19.666666666666657"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Bananas: 10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xBE-rS-55c">
-                                                <rect key="frame" x="0.0" y="0.0" width="132.33333333333334" height="20.333333333333332"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="132.33333333333334" height="19.666666666666668"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Money: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rro-50-Euk">
-                                                <rect key="frame" x="182.33333333333331" y="0.0" width="75.333333333333314" height="20.333333333333332"/>
+                                                <rect key="frame" x="182.33333333333331" y="0.0" width="75.333333333333314" height="19.666666666666668"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -137,7 +137,7 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uPm-u1-jNf">
-                                        <rect key="frame" x="0.0" y="305" width="257.66666666666669" height="239.66666666666663"/>
+                                        <rect key="frame" x="0.0" y="292.66666666666669" width="257.66666666666669" height="229.66666666666669"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" image="banana1"/>
                                         <buttonConfiguration key="configuration" style="plain" image="banana1"/>
@@ -146,10 +146,10 @@
                                         </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="07v-jl-qcA">
-                                        <rect key="frame" x="0.0" y="666.66666666666674" width="257.66666666666669" height="50"/>
+                                        <rect key="frame" x="0.0" y="639.33333333333326" width="257.66666666666669" height="48"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4j7-pX-ACb">
-                                                <rect key="frame" x="0.0" y="0.0" width="100" height="50"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="100" height="48"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="SAVE">
                                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="30"/>
@@ -161,7 +161,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O44-sE-uMD">
-                                                <rect key="frame" x="150" y="0.0" width="107.66666666666669" height="50"/>
+                                                <rect key="frame" x="150" y="0.0" width="107.66666666666669" height="48"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="SHOP">
                                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="30"/>
@@ -176,7 +176,10 @@
                                     </stackView>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="lT7-Gt-HR3" firstAttribute="height" secondItem="RRH-Bd-hES" secondAttribute="height" multiplier="0.0283721" id="Ixh-Xc-OR5"/>
+                                    <constraint firstItem="Wcl-OD-ttB" firstAttribute="height" secondItem="RRH-Bd-hES" secondAttribute="height" multiplier="0.0567442" id="K1U-W2-95A"/>
                                     <constraint firstItem="uPm-u1-jNf" firstAttribute="height" secondItem="RRH-Bd-hES" secondAttribute="height" multiplier="0.33423" id="X6K-cn-qUR"/>
+                                    <constraint firstItem="07v-jl-qcA" firstAttribute="height" secondItem="RRH-Bd-hES" secondAttribute="height" multiplier="0.0697674" id="zb1-lX-BhX"/>
                                 </constraints>
                             </stackView>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="X1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jgc-Cq-uLH">
@@ -186,6 +189,19 @@
                                 <color key="textColor" systemColor="systemYellowColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X4d-HS-4Hr">
+                                <rect key="frame" x="136" y="788" width="121" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="HOME">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="30"/>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                    <color key="baseBackgroundColor" systemColor="systemYellowColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="homeAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ANn-E8-g0O"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
@@ -201,16 +217,17 @@
                         <outlet property="moneyOutlet" destination="rro-50-Euk" id="j7x-xD-tTT"/>
                         <outlet property="multiOutlet" destination="jgc-Cq-uLH" id="vLS-ia-dlu"/>
                         <segue destination="Hwa-eW-nID" kind="show" identifier="Shop" id="Qf4-4p-V2X"/>
+                        <segue destination="oZm-cH-gUH" kind="presentation" identifier="toStartGame" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="yO9-hJ-moT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="255.72519083969465" y="-382.3943661971831"/>
+            <point key="canvasLocation" x="255.72519083969465" y="-575.35211267605632"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller Start-->
         <scene sceneID="dhW-Ck-C2R">
             <objects>
-                <viewController id="oZm-cH-gUH" sceneMemberID="viewController">
+                <viewController id="oZm-cH-gUH" customClass="ViewControllerStart" customModule="BananaClicker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kta-Tc-iec">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -232,10 +249,11 @@
                                     <color key="baseBackgroundColor" systemColor="systemYellowColor"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="continueAction:" destination="oZm-cH-gUH" eventType="touchUpInside" id="AHh-G5-c35"/>
                                     <action selector="shopAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9vC-Gu-KTD"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S07-gy-mHp">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S07-gy-mHp">
                                 <rect key="frame" x="59" y="544" width="274.33333333333337" height="75.333333333333485"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
@@ -248,14 +266,48 @@
                                     <action selector="shopAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XxU-Bm-fFk"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xfs-b7-tqB">
+                                <rect key="frame" x="59" y="662" width="274.33333333333337" height="75.333333333333485"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Set Name">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="30"/>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                    <color key="baseBackgroundColor" systemColor="systemYellowColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="nameAction:" destination="oZm-cH-gUH" eventType="touchUpInside" id="BZO-4t-5oC"/>
+                                    <action selector="shopAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hb1-SK-hcg"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bVq-cf-S1H">
+                                <rect key="frame" x="59" y="238" width="274" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Name Here" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YOP-jo-QC2">
+                                <rect key="frame" x="59" y="344" width="274" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="82a-oD-nDF"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="D2a-DC-lBq"/>
+                    <connections>
+                        <outlet property="nameOutlet" destination="bVq-cf-S1H" id="miV-tu-II6"/>
+                        <outlet property="textFieldOutlet" destination="YOP-jo-QC2" id="Ut8-hu-lnx"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="ToGameStart" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="o5u-DE-Efr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KBx-jU-tCK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1121.3740458015266" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="1119.8473282442749" y="3.5211267605633805"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="5TQ-Xh-82B">
@@ -268,14 +320,18 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Hda-ID-yf9"/>
+                        <segue destination="oZm-cH-gUH" kind="relationship" relationship="rootViewController" id="w8j-im-nYT"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mTr-5V-FLj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="256" y="347"/>
+            <point key="canvasLocation" x="256" y="291"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="o5u-DE-Efr"/>
+        <segue reference="yO9-hJ-moT"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="banana1" width="182" height="181"/>
         <systemColor name="labelColor">
